@@ -1,0 +1,21 @@
+{
+  "name": "lambdaffmpeg",
+  "version": "1.0.0",
+  "description": "Run ffmpeg and ffprobe on aws lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "ffmpegPath='/usr/local/bin/ffmpeg' ffprobePath='/usr/local/bin/ffprobe' node_modules/.bin/mocha tests"
+  },
+  "author": "Jake Smith",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "optionalDependencies": {
+    "aws-sdk": "^2.188.0"
+  }
+}
